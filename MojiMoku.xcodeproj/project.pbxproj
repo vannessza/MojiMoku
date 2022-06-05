@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D39CE976284C765F00C29167 /* AnimeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39CE975284C765F00C29167 /* AnimeList.swift */; };
+		D39CE978284C81B000C29167 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39CE977284C81B000C29167 /* CategoryItem.swift */; };
+		D39CE97A284C875100C29167 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39CE979284C875100C29167 /* CategoryRow.swift */; };
+		D39CE97E284C90FD00C29167 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39CE97D284C90FD00C29167 /* CategoryHome.swift */; };
 		D3BF6B97284B485100A1F913 /* MojiMokuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BF6B96284B485100A1F913 /* MojiMokuApp.swift */; };
 		D3BF6B99284B485100A1F913 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BF6B98284B485100A1F913 /* ContentView.swift */; };
 		D3BF6B9B284B485200A1F913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BF6B9A284B485200A1F913 /* Assets.xcassets */; };
@@ -14,6 +18,14 @@
 		D3BF6BA8284B485200A1F913 /* MojiMokuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BF6BA7284B485200A1F913 /* MojiMokuTests.swift */; };
 		D3BF6BB2284B485200A1F913 /* MojiMokuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BF6BB1284B485200A1F913 /* MojiMokuUITests.swift */; };
 		D3BF6BB4284B485200A1F913 /* MojiMokuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BF6BB3284B485200A1F913 /* MojiMokuUITestsLaunchTests.swift */; };
+		D3BF6BC8284B4A2A00A1F913 /* animeCharsData.json in Resources */ = {isa = PBXBuildFile; fileRef = D3BF6BC7284B4A2A00A1F913 /* animeCharsData.json */; };
+		D3BF6BCA284B4A4200A1F913 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BF6BC9284B4A4200A1F913 /* ModelData.swift */; };
+		D3BF6BCC284B4A5400A1F913 /* AnimeCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BF6BCB284B4A5400A1F913 /* AnimeCharacter.swift */; };
+		D3BF6BCE284B4E1100A1F913 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BF6BCD284B4E1100A1F913 /* CircleImage.swift */; };
+		D3BF6BD0284B4FB700A1F913 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BF6BCF284B4FB700A1F913 /* FavoriteButton.swift */; };
+		D3BF6BD4284B527200A1F913 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BF6BD3284B527200A1F913 /* RoundedCorners.swift */; };
+		D3BF6BD6284B541300A1F913 /* AnimeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BF6BD5284B541300A1F913 /* AnimeDetail.swift */; };
+		D3BF6BD8284B903B00A1F913 /* AnimeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BF6BD7284B903B00A1F913 /* AnimeRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D39CE975284C765F00C29167 /* AnimeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeList.swift; sourceTree = "<group>"; };
+		D39CE977284C81B000C29167 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		D39CE979284C875100C29167 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		D39CE97D284C90FD00C29167 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		D3BF6B93284B485100A1F913 /* MojiMoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MojiMoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BF6B96284B485100A1F913 /* MojiMokuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojiMokuApp.swift; sourceTree = "<group>"; };
 		D3BF6B98284B485100A1F913 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +60,14 @@
 		D3BF6BAD284B485200A1F913 /* MojiMokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MojiMokuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BF6BB1284B485200A1F913 /* MojiMokuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojiMokuUITests.swift; sourceTree = "<group>"; };
 		D3BF6BB3284B485200A1F913 /* MojiMokuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojiMokuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3BF6BC7284B4A2A00A1F913 /* animeCharsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animeCharsData.json; sourceTree = "<group>"; };
+		D3BF6BC9284B4A4200A1F913 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D3BF6BCB284B4A5400A1F913 /* AnimeCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCharacter.swift; sourceTree = "<group>"; };
+		D3BF6BCD284B4E1100A1F913 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		D3BF6BCF284B4FB700A1F913 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		D3BF6BD3284B527200A1F913 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		D3BF6BD5284B541300A1F913 /* AnimeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetail.swift; sourceTree = "<group>"; };
+		D3BF6BD7284B903B00A1F913 /* AnimeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +118,10 @@
 		D3BF6B95284B485100A1F913 /* MojiMoku */ = {
 			isa = PBXGroup;
 			children = (
+				D3BF6BC2284B48DE00A1F913 /* Views */,
+				D3BF6BC1284B48BD00A1F913 /* Resources */,
+				D3BF6BC0284B48A700A1F913 /* Model */,
 				D3BF6B96284B485100A1F913 /* MojiMokuApp.swift */,
-				D3BF6B98284B485100A1F913 /* ContentView.swift */,
 				D3BF6B9A284B485200A1F913 /* Assets.xcassets */,
 				D3BF6B9C284B485200A1F913 /* Preview Content */,
 			);
@@ -125,6 +151,64 @@
 				D3BF6BB3284B485200A1F913 /* MojiMokuUITestsLaunchTests.swift */,
 			);
 			path = MojiMokuUITests;
+			sourceTree = "<group>";
+		};
+		D3BF6BC0284B48A700A1F913 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3BF6BC9284B4A4200A1F913 /* ModelData.swift */,
+				D3BF6BCB284B4A5400A1F913 /* AnimeCharacter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3BF6BC1284B48BD00A1F913 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D3BF6BC7284B4A2A00A1F913 /* animeCharsData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D3BF6BC2284B48DE00A1F913 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3BF6B98284B485100A1F913 /* ContentView.swift */,
+				D3BF6BC4284B496800A1F913 /* AnimeHome */,
+				D3BF6BC5284B497A00A1F913 /* Helpers */,
+				D3BF6BC6284B498B00A1F913 /* AnimeChars */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3BF6BC4284B496800A1F913 /* AnimeHome */ = {
+			isa = PBXGroup;
+			children = (
+				D39CE977284C81B000C29167 /* CategoryItem.swift */,
+				D39CE979284C875100C29167 /* CategoryRow.swift */,
+				D39CE97D284C90FD00C29167 /* CategoryHome.swift */,
+			);
+			path = AnimeHome;
+			sourceTree = "<group>";
+		};
+		D3BF6BC5284B497A00A1F913 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D3BF6BCD284B4E1100A1F913 /* CircleImage.swift */,
+				D3BF6BCF284B4FB700A1F913 /* FavoriteButton.swift */,
+				D3BF6BD3284B527200A1F913 /* RoundedCorners.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D3BF6BC6284B498B00A1F913 /* AnimeChars */ = {
+			isa = PBXGroup;
+			children = (
+				D3BF6BD5284B541300A1F913 /* AnimeDetail.swift */,
+				D3BF6BD7284B903B00A1F913 /* AnimeRow.swift */,
+				D39CE975284C765F00C29167 /* AnimeList.swift */,
+			);
+			path = AnimeChars;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +317,7 @@
 			files = (
 				D3BF6B9E284B485200A1F913 /* Preview Assets.xcassets in Resources */,
 				D3BF6B9B284B485200A1F913 /* Assets.xcassets in Resources */,
+				D3BF6BC8284B4A2A00A1F913 /* animeCharsData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +342,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D39CE97E284C90FD00C29167 /* CategoryHome.swift in Sources */,
 				D3BF6B99284B485100A1F913 /* ContentView.swift in Sources */,
 				D3BF6B97284B485100A1F913 /* MojiMokuApp.swift in Sources */,
+				D3BF6BCC284B4A5400A1F913 /* AnimeCharacter.swift in Sources */,
+				D3BF6BD4284B527200A1F913 /* RoundedCorners.swift in Sources */,
+				D3BF6BD0284B4FB700A1F913 /* FavoriteButton.swift in Sources */,
+				D3BF6BD6284B541300A1F913 /* AnimeDetail.swift in Sources */,
+				D3BF6BD8284B903B00A1F913 /* AnimeRow.swift in Sources */,
+				D3BF6BCA284B4A4200A1F913 /* ModelData.swift in Sources */,
+				D39CE976284C765F00C29167 /* AnimeList.swift in Sources */,
+				D39CE978284C81B000C29167 /* CategoryItem.swift in Sources */,
+				D39CE97A284C875100C29167 /* CategoryRow.swift in Sources */,
+				D3BF6BCE284B4E1100A1F913 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

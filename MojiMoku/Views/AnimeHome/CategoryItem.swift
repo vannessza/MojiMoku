@@ -27,7 +27,7 @@ struct CategoryItem: View {
                     .multilineTextAlignment(.center)
                     .lineLimit(2)
                 Text(animeCharacter.origin).foregroundColor(.purple)
-                    .font(.title3)
+                    .font(.title2)
                     .bold()
             }.frame(width:220)
                 .offset(y:-200)

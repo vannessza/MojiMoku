@@ -1,5 +1,5 @@
 # MojiMoku
-# Project Individu
+# Project AFL4 Individu
 
 
 #
